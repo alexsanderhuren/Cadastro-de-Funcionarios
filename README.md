@@ -13,7 +13,7 @@ $ cd frontend
 
 $ npm start
 ## Back - end
-$ cd backend
+$ cd server
 
 $ node index.js ou nodemon index.js
 ##
