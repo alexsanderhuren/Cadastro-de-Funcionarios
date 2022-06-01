@@ -18,7 +18,6 @@ export const getFuncionario = (req, res) => {
   db.find({_id: req.params.id}, function (err, funcionario) {
     res.send(funcionario);
   })
-
 };
 
 export const deleteFuncionario = (req, res) => {
@@ -28,7 +27,6 @@ export const deleteFuncionario = (req, res) => {
 };
 
 export const updateFuncionario = (req, res) => {
-  
   db.update({ _id: req.params.id }, { $set: { "nome": req.body.nome, "email": req.body.email, "ddd": req.body.ddd, "telefone": req.body.telefone } }, {}, function () {
     res.send("Usuário Atualizado com sucesso");
   })
