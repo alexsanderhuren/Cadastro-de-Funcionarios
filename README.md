@@ -21,7 +21,7 @@ $ node index.js ou nodemon index.js
 
 ## Funcionalidades
 
-- Cadastrar funcionários no banco de dados
-- Visualizar funcionários cadastrados através de tabela
-- Atualizar funcionários cadastrados
-- Apagar funcionários cadastrados
+- Cadastrar os funcionários no banco de dados
+- Visualizar os funcionários cadastrados através de tabela
+- Atualizar os funcionários cadastrados
+- Apagar os funcionários cadastrados
