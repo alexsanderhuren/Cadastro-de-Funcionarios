@@ -1,6 +1,6 @@
 import express from "express";
 
-import { getFuncionarios, createFuncionario, getFuncionario, deleteFuncionario, updateFuncionario } from "../controllers/users.js";
+import { getFuncionarios, createFuncionario, getFuncionario, deleteFuncionario, updateFuncionario } from "../controllers/funcionarios.js";
 
 const router = express.Router();
 
